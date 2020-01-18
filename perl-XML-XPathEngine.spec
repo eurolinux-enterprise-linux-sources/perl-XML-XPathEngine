@@ -1,6 +1,6 @@
 Name:           perl-XML-XPathEngine
 Version:        0.14
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Re-usable XPath engine for DOM-like trees
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -61,6 +61,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.14-3
+- Mass rebuild 2013-12-27
+
 * Sun Aug 04 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.14-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
 
